@@ -1,0 +1,33 @@
+# Godot-specific folders (cached imports & editor configs)
+.import/
+.config/
+.editor_config
+
+# Temporary files & logs
+*.log
+*.tmp
+*.bak
+
+# Godot Mono/C# dependencies
+.mono/
+*.csproj
+*.sln
+*.pdb
+*.userprefs
+
+# Build & export directories
+bin/
+export/
+
+# Godot-specific auto-generated files (may vary by usage)
+*.godot
+*.tres
+*.res
+
+# Ignore user-specific settings
+.settings/
+*.ini
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store
